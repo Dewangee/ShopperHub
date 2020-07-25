@@ -1,0 +1,60 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    <script src = "jquery-3.3.1.js" ></script>
+    <script src="catalog.js"></script> 
+    <link rel="stylesheet" href="index.css">
+    <title>Product Catalog</title>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <!-- logo -->
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand"><i class="fas fa-shopping-bag" style=""></i> 
+                <div style = "display: inline-block">ShopperHub</div></a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bar">
+                <!-- Design of the button - making three lines -->
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <!-- Menu Items -->
+        <div class="collapse navbar-collapse" id="bar">  <!-- collapse when size shrinks -->
+        <ul class="nav navbar-nav" id="menutext">
+            <li style="display: inline-block"> <a href="#" > Home</a> </li>
+            <li class="active" > <a href="./catalog.html"  style="display: inline-block" >Catalog</a> </li>
+            <li> <a href="./cart.html"  style="display: inline-block" > Cart <i class="fas fa-shopping-cart"></i> </a> </li>
+           
+        </ul>
+
+            <!-- Right align -->
+            <ul class="nav navbar-nav navbar-right" id="menutextt" >
+                <li> <a href="index.html">Logout</a> </li>
+            </ul>
+        </div>
+
+
+    </div>
+</nav>
+<div>
+    <div class="row">
+        <div class="col-md-1 col-md-offset-5" style="margin-top: 2%" >
+            <span id = "products">Products</span>
+        </div>
+    </div>
+    <div class="col-md-10 col-md-offset-1"  id="productdiv">
+       
+
+    </div>
+</div>
+</body>
+</html>
